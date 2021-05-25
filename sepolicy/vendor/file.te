@@ -8,5 +8,4 @@ type public_adsprpcd_file, file_type;
 
 # for PowerHal
 type proc_sched_energy_aware, proc_type, fs_type;
-
 type vendor_sysfs_fod, sysfs_type, fs_type;
