@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    liba2dpoffload \
     libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
@@ -364,7 +363,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-vendorcompat \
-    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-full-vendorcompat
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
