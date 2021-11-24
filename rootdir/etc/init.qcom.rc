@@ -154,6 +154,10 @@ on boot
 
     setprop ro.telephony.call_ring.multiple false
 
+    # Allow system to modify exposure adjustment state
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_bl
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_bl
+
     #Remove SUID bit for iproute2 ip tool
     chmod 0755 /system/bin/ip
 

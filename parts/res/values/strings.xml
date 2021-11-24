@@ -19,4 +19,8 @@
         <!-- Smart wake strings-->
     <string name="smart_wake_gesture_title">Smart Wake</string>
     <string name="smart_wake_gesture_summary">Pulse notifications on slight motion of device and wake screen when picked up</string>
+
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">Anti-Flicker Mode</string>
+    <string name="dc_dimming_enable_summary">DC Dimming reduces eye strain in low light conditions (Note: reduce image quality and color production)</string>
 </resources>
