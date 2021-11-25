@@ -34,7 +34,7 @@ public class DisplaySettingsFragment extends PreferenceFragment implements
     private static final String DC_DIMMING_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_bl";
     private SwitchPreference mHBMPreference;
     private static final String HBM_ENABLE_KEY = "hbm_mode";
-    private static final String HBM_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm";
+    private static final String HBM_NODE = "/sys/class/backlight/panel0-hbm/brightness";
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
